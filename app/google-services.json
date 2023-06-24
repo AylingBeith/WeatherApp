@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "9762213499",
+    "project_id": "atlantis--weather",
+    "storage_bucket": "atlantis--weather.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:9762213499:android:db9d1569eeaf75e9dd9cde",
+        "android_client_info": {
+          "package_name": "com.windmill.atlantisweather"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "9762213499-i4fsrc8vols295ekoouq0tidvpf3jpqh.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDba5SrkP9j3Msv0HQa9XfQDx1ofhN7Rw4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "9762213499-i4fsrc8vols295ekoouq0tidvpf3jpqh.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

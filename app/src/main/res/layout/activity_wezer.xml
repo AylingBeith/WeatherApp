@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".WezerActivity">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/wezersceen"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/weze_bg"
+        android:visibility="invisible">
+
+        <ImageButton
+            android:id="@+id/wezerstart"
+            android:layout_width="313dp"
+            android:layout_height="91dp"
+            android:layout_marginBottom="12dp"
+            android:background="#00FFFFFF"
+            app:layout_constraintBottom_toTopOf="@+id/policitywezer"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:srcCompat="@drawable/start_weaz" />
+
+        <ImageButton
+            android:id="@+id/policitywezer"
+            android:layout_width="325dp"
+            android:layout_height="103dp"
+            android:layout_marginBottom="92dp"
+            android:background="#00FFFFFF"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.569"
+            app:layout_constraintStart_toStartOf="parent"
+            app:srcCompat="@drawable/polisy_wezer" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <WebView
+        android:id="@+id/wezerzeus"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="invisible" />
+
+</RelativeLayout>
